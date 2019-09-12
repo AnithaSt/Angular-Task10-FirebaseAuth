@@ -1,0 +1,82 @@
+<div class="container-fluid">
+  <div class="row text-center text-secondary">
+  <div class="col-lg-1 col-md-2 col-sm-12"></div>
+  <div class="col-lg-2 col-md-12 col-sm-12">
+    <img src="/assets/univerlogo.png" alt="Bridge University" class="image">
+  </div>
+  <div class="col-lg-2 col-md-1 col-sm-12"></div> 
+  <div class="col-lg-1 col-md-2 col-sm-12 p-1">
+      <p class="list-inline-item mt-4 navbar-brand ">Home</p>
+    </div>
+    <div class="col-lg-1 col-md-2 col-sm-12 p-1">
+      <p class="list-inline-item  mt-4 navbar-brand">About</p>
+    </div>
+    <div class="col-lg-1 col-md-2 col-sm-12 p-1">
+      <p class="list-inline-item  mt-4 navbar-brand">campous</p>
+    </div>
+    <div class="col-lg-1 col-md-2 col-sm-12 p-1">
+      <p class="list-inline-item  mt-4 navbar-brand">Facts</p>
+    </div>
+    <div class="col-lg-1 col-md-2 col-sm-12 p-1">
+      <p class="list-inline-item  mt-4 navbar-brand">Contact Us</p>
+    </div>
+  <div class="col-lg-1 col-md-1 col-sm-12 pl-4 pr-1 pt-1 pb-1">
+    <div  *ngIf="authService.isLoggedIn" >
+      <a class="list-inline-item  mt-4  navbar-brand text-danger"  (click)="authService.logout()">Logout</a>
+    </div>
+  </div>
+  </div>
+</div>
+<div class="container-fluid bg-info">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4 col-md-12 col-sm-12 mt-5 mb-4">
+				<img src="/assets/ship.jpg" alt="ship" class="imgp">
+				<h2>Experience our university</h2>
+				<p>From a group of academic pioneers in 1901 to the Free Speech Movement in 1964, Bridge University is a place where the brightest minds come together.</p>
+				<a href="#" class="alert-link text-danger">ReadMore></a>
+			</div>
+			<div class="col-lg-4 col-md-12 col-sm-12 mt-5 mb-4">
+				<img src="/assets/truck.jpg" alt="ship" class="imgp">
+				<h2>Industrys expert speakers</h2>
+				<p>From a group of academic pioneers in 1901 to the Free Speech Movement in 1964, Bridge University is a place where the brightest minds come together.</p>
+				<a href="#" class="alert-link text-danger">ReadMore></a>
+			</div>
+			<div class="col-lg-4 col-md-12 col-sm-12 mt-5 mb-4">
+				<img src="/assets/aero.jpg" alt="ship" class="imgp">
+				<h2>Meet faculty staff members</h2>
+				<p>From a group of academic pioneers in 1901 to the Free Speech Movement in 1964, Bridge University is a place where the brightest minds come together.</p>
+				<a href="#" class="alert-link text-danger">ReadMore></a>
+			</div>
+		</div>	
+	</div>
+</div>
+<div class="container-fluid"style="background-image:url(/assets/coconu.jpg);
+		background-attachment:fixed;">
+		<div class="container">
+			<div class="row text-white">
+				<div class="col-lg-6 col-md-12 col-sm-12 mt-5 mb-5">
+					<h2>Industry expert speakers</h2>
+					<p>
+						From a group of academic pioneers in 1901 to the Free Speech Movement in 1964, Bridge University is a place where the brightest minds come together From a group of academic pioneers in 1901 to the Free Speech Movement in 1964, Bridge University.
+					</p>
+					<button type="button" class="btn btn-light">Read the blogspot</button>
+				</div>
+				<div class="col-lg-6 col-md-12 col-sm-12 mt-5 mb-5">
+					<p>career opportunites</p>
+					<div class="progress">
+						<div class="progress-bar bg-light" style="width: 50%"></div>
+					</div>
+					<p>career opportunites</p>
+					<div class="progress">
+						<div class="progress-bar bg-light" style="width: 80%"></div>
+					</div>
+					<p>career opportunites</p>
+					<div class="progress">
+						<div class="progress-bar bg-light" style="width: 90%"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+  </div>
+  <div class="footer  text-center text-white" id="head">@Firebase Authentication<br><br></div>
